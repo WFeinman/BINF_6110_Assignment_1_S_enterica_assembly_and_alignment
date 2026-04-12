@@ -19,7 +19,7 @@ Execute the priary script with:
 On execution, requisite genomic data and reference genome will be downloaded to the working directory.  
 
 Alternatively, should the file `SRR32410565.fastq` already be downloaded from a previous script, an optional script without that specific download has been included for ease of repetition: 
--     bash s_enterica_flye_to_minimap_to_bam.sh
+-     bash ss_enterica_no_fastq_download_flye_to_minimap_to_bam.sh
 
 Either way, the above genome assembly and alignment will be conducted on the genomic data using the downloaded reference. 
 
