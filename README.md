@@ -25,7 +25,11 @@ Either way, the above genome assembly and alignment will be conducted on the gen
 
 Once completed, a `test1.sorted.bam` file will be generated in the working directory. This may be loaded into the IGV and compared to the reference genome `GCF_000006945.2_ASM694v2_genomic.fna` for the assembly. 
 
-The `test2.sorted.bam` file may be likewise compared to the reference for the aligned sequences.
+
+## Visualization:
+This data is intended to be viewed with the Integrative Genomics Viewer (IGV) for Desktop, downloaded seperately here: `https://igv.org/doc/desktop/#DownloadPage/` Last tested for IGV Windows Desktop version 2.19.7.
+
+In addition to the assemblyfile `test1.sorted.bam`, the `test2.sorted.bam` file may be likewise compared to the reference for the aligned sequences.
 
 The `GCA_000006945.2_ASM694v2_genomic.gtf` file can be loaded as a broad overview of known gene functions within S. enterica.
 
@@ -33,8 +37,3 @@ Finally, the `merge_output.vcf` highlights shared SNPs, indels, and other varian
 
 With the Integrative Genomics Viewer, all of these features may be compared to the ference genome seperately, or at the same time.
 
-
-## Visualization:
-This data is intended to be viewed with the Integrative Genomics Viewer (IGV) for Desktop, downloaded seperately here: `https://igv.org/doc/desktop/#DownloadPage/`
-With it, all 4 files may be viewed side by side, 
-Last tested for IGV Windows Desktop version 2.19.7.
