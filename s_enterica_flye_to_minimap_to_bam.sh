@@ -81,3 +81,7 @@ singularity exec \
   --include_all_ctgs \
   --haploid_precise \
   --enable_variant_calling_at_sequence_head_and_tail
+
+gunzip clair3_out/merge_output.vcf.gzm
+
+mv clair3_out/merge_output.vcf merge_output.vcf
