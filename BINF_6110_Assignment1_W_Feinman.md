@@ -4,7 +4,7 @@
 
 William Feinman
 
-##**Background:**
+## **Background:**
 
 Genome assembly is a vital process to modern genetic analysis pipelines.
 For most forms of genetic sequencing, a large number of DNA reads
@@ -83,7 +83,7 @@ an executable bash script in the attached github repository, replicated
 below for sake of completeness:
 <https://github.com/WFeinman/BINF_6110_Assignment_1_S_enterica_assembly_and_alignment>
 
-##**Methods:**
+## **Methods:**
 
 Sequence quality was confirmed by running FastQC on the input fastq
 file. Though specialized for short reads, FastQC is a way of flagging
@@ -127,7 +127,7 @@ accuracy. If there were a few reads in particular of lower quality than
 the rest, they could be filtered out with a quality score rule to
 preserve the rest of the data.
 
-##**Bash Script Execution:**
+## **Bash Script Execution:**
 
 Ensure flye, FastQC, minimap2, and samtools are properly installed and
 active. Place the "s_enterica_flye_to_minimap_to_bam.sh" script in
@@ -159,7 +159,7 @@ reference genome "GCF_000006945.2_ASM694v2_genomic.fna" for the
 assembly. The "test2.sorted.bam" file may be likewise compared to the
 reference for the aligned annotation.
 
-##**Primary Script file contents:**
+## **Primary Script file contents:**
 
 #!/bin/bash
 
@@ -303,7 +303,7 @@ gunzip clair3_out/merge_output.vcf.gzm
 
 mv clair3_out/merge_output.vcf merge_output.vcf
 
-##**Results:**
+## **Results:**
 
 ![](media/image1.png){width="3.361920384951881in"
 height="3.3040912073490816in"}
@@ -346,7 +346,7 @@ given spot. In this case, a conserved insertion sequence
 Despite an absence of clear variant calls like prior examples, many
 reads show increased insertions in this broad area.
 
-##**Discussion:**
+## **Discussion:**
 
 Overall, the *S. enterica* daataset showed a remarkable number of
 illustrative alignment features, serving as a good illustrative example
@@ -394,7 +394,7 @@ importance of a robust genetic analysis pipeline is emphasized,
 expecially in light of the last pandemic.
 
 
-##**References:**
+## **References:**
 
 Bogaerts, B., Maex, M., Commans, F., Goeders, N., Van Den Bossche, A.,
 De Keersmaecker, S. C. J., Roosens, N. H. C., Ceyssens, P.-J., Mattheus,
