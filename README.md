@@ -1,11 +1,11 @@
 # BINF_6110_Assignment_1_S_enterica_assembly_and_alignment
 
 ## Overal Goal:
-The script aims to take a case study in the form of FastQ reads from an Oxford Nanopore R10 sequence for a Salmonella enterica sample. These reads are to be assembled into a consensus genome, compared to a reference genome, and have any variants visualized as both an assembly and a functional; annotation alignment. The code to do so is assembled in a functional demonstration vignette as an executable bash script in this repository.
+The script aims to take a case study in the form of FastQ reads from an Oxford Nanopore R10 sequence for a Salmonella enterica sample. These reads are to be assembled into a consensus genome, compared to a reference genome, and have any variants visualized as both an assembly and a functional; annotation alignment. The code to do so is assembled in a functional demonstration vignette as an executable shell script in this repository.
 
 
-## Bash Script Execution:
-Ensure flye, FastQC, minimap2, and samtools are properly installed and active. Last confirmed functional versions: flye v2.9.6-b1802, FastQC v0.12.1, minimap2 v2.28-r1209, samtools v1.23.1. 
+## Shell Script Execution:
+Ensure flye, FastQC, minimap2, and samtools are properly installed and active. Tested on Windows Subsystem for Linux version 2.5.10.0. Last confirmed functional package versions: flye v2.9.6-b1802, FastQC v0.12.1, minimap2 v2.28-r1209, samtools v1.23.1. 
   - Place the “s_enterica_flye_to_minimap_to_bam.sh” script in desired file location. 
 - Give the script execution privileges with:
 -     chmod +x s_enterica_flye_to_minimap_to_bam.sh
