@@ -5,7 +5,7 @@ The script aims to take a case study in the form of FastQ reads from an Oxford N
 
 
 ## Shell Script Execution:
-Ensure flye, FastQC, minimap2, and samtools are properly installed and active. Tested on Windows Subsystem for Linux version 2.5.10.0. Last confirmed functional package versions: flye v2.9.6-b1802, FastQC v0.12.1, minimap2 v2.28-r1209, samtools v1.23.1. 
+Ensure flye, minimap2, and samtools are properly installed and active. Independent FastQC analysis is encouraged (`fastqc`), though technically not required for the script. Tested on Windows Subsystem for Linux version 2.5.10.0. Last confirmed functional package versions: flye v2.9.6-b1802, FastQC v0.12.1, minimap2 v2.28-r1209, samtools v1.23.1. 
   - Place the “s_enterica_flye_to_minimap_to_bam.sh” script in desired file location. 
 - Give the script execution privileges with:
 -     chmod +x s_enterica_flye_to_minimap_to_bam.sh
