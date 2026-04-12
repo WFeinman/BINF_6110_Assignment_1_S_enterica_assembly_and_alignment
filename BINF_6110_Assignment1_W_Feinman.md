@@ -305,14 +305,13 @@ mv clair3_out/merge_output.vcf merge_output.vcf
 
 ## **Results:**
 
-![](media/image1.png){width="3.361920384951881in"
-height="3.3040912073490816in"}
+<img width="318" height="313" alt="image" src="https://github.com/user-attachments/assets/90d37ba6-3c28-4d0e-8ad0-b996d212df8d" />
 
 **Figure 1:** Read quality was confirmed with FastQC. Phred score well
 above 20 indicates accurate reads.
 
-![](media/image2.png){width="5.984476159230097in"
-height="7.50680883639545in"}
+
+<img width="574" height="720" alt="image" src="https://github.com/user-attachments/assets/730948dd-d380-4465-afb9-1eee1e4bee37" />
 
 **Figure 2:** Example cross-file comparison chart. Top-mid histogram
 thickness indicates extent of coverage in region. Color change on same
@@ -321,30 +320,29 @@ T, A, C, G substitution (respectively) in place of the reference
 nucleotide. Purple indicates insertion. White indicates a read gap.
 Example of a low coverage region being highly variable from reference.
 
-![](media/image3.png){width="1.740961286089239in"
-height="6.096423884514436in"}
-![](media/image4.png){width="1.7028357392825897in"
-height="6.2429319772528435in"}
-![](media/image5.png){width="3.0428346456692914in"
-height="6.165593832020997in"}
+
+<img width="165" height="576" alt="image" src="https://github.com/user-attachments/assets/07f7b853-163f-47a3-8078-75dccc53756a" /> <img width="157" height="576" alt="image" src="https://github.com/user-attachments/assets/49d4ffeb-03ce-4e21-9995-f9d116dab31d" /> <img width="286" height="579" alt="image" src="https://github.com/user-attachments/assets/b2f8812c-8639-42f3-ae06-661de4a2a277" />
 
 **Figure 3:** Example of distinct chimeric alignment. Read does not map
 cleanly to aligned region, so supplementary alignment recorded at the
 closest match site.In this case, a high coverage regtion shows high
 variation from the reference.
 
-![](media/image6.png){width="6.5in" height="6.370138888888889in"}
+
+<img width="624" height="612" alt="image" src="https://github.com/user-attachments/assets/227ac3dd-572b-4e54-9de8-17a718205308" />
 
 **Figure 4:** Example of secondary alignment. Unlike chimeric
 alignments, reads clearly map to aligned reference region, but a
 secondary motif is actually more common than the reference sequnce at a
 given spot. In this case, a conserved insertion sequence
 
-![](media/image7.png){width="6.5in" height="5.102777777777778in"}
+
+<img width="624" height="490" alt="image" src="https://github.com/user-attachments/assets/cdbe7ba1-e794-4564-9013-83499c496601" />
 
 **Figure 5:** Example of a Salmonella pathogenecity island (SPI-1).
 Despite an absence of clear variant calls like prior examples, many
 reads show increased insertions in this broad area.
+
 
 ## **Discussion:**
 
