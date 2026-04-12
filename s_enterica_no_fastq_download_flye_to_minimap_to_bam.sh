@@ -19,10 +19,11 @@
 # S.enterica annotation: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/006/945/GCA_000006945.2_ASM694v2/GCA_000006945.2_ASM694v2_genomic.gtf.gz
 
 #Actual data downloads and unpacking
-wget -nc https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR32410565/SRR32410565
+#In this file version, the fastq download and extraction has been commented out for ease of repetition, should SRR32410565.fastq is already downloaded, as that file is the largest and most time consuming part of this script.
+#wget -nc https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR32410565/SRR32410565
 
 #works, just takes it's sweet time. Like 10-20 minutes.
-fasterq-dump SRR32410565
+#fasterq-dump SRR32410565
 
 seqtk fqchk SRR32410565.fastq | head
 
