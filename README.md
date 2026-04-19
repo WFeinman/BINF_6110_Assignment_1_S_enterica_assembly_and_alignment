@@ -13,7 +13,7 @@ Ensure flye, minimap2, samtools, singularity/apptainer, and the SRA toolkit are 
   And for repeated scripts:
 -	  chmod +x s_enterica_no_fastq_download_flye_to_minimap_to_bam.sh
 
-Execute the priary script with:
+Execute the primary script with:
 -     bash s_enterica_flye_to_minimap_to_bam.sh
 
 On execution, requisite genomic data and reference genome will be downloaded to the working directory.  
